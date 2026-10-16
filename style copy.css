@@ -72,11 +72,11 @@ button {
 .nav1 a:hover{
     color: #a21c91;
 }
-.nav1 a.present {
+.nav1 a.active {
     color: #a21c91;
 }
 
-.nav1 a.present::after {
+.nav1 a.active::after {
     content: "";
     position: absolute;
     left: 0;
